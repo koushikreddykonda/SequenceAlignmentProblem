@@ -7,14 +7,16 @@
  
 Insights
 
-Graph1 – Memory vs Problem Size (M+N)
+<img width="922" alt="Screenshot 2023-09-07 at 9 36 03 PM" src="https://github.com/koushikreddykonda/SequenceAlignmentProblem/assets/122440945/5e86a2cd-0037-4b73-830c-9b0698fbc073">
+
 
 
 Nature of the Graph (Logarithmic/ Linear/ Polynomial/ Exponential) 
 Basic: Polynomial Efficient: Linear Explanation:  
 From the graph, we can see that when the input sizes are small, there’s no big difference in memory consumption of basic and efficient algorithm. However when the input size grows, the basic algorithm takes more memory – O(m*n) as we maintain the costs for every conceivable alignment whereas in the efficient algorithm, the memory remains same because we use only limited – 2 columns for computing the cost, here we partition the first string from the middle part and by looking at each index of the second string to divide and selecting the one that provides the lowest cost. Therefore, memory in efficient algorithm is linear while it is polynomial in basic.
  
-Graph2 – Time vs Problem Size (M+N)
+<img width="878" alt="Screenshot 2023-09-07 at 9 36 20 PM" src="https://github.com/koushikreddykonda/SequenceAlignmentProblem/assets/122440945/892429be-8cae-4f34-8b11-055ce61caf72">
+
 
 
 Nature of the Graph (Logarithmic/ Linear/ Polynomial/ Exponential) 
